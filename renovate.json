@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "config:base",
+    ":semanticCommits"
+  ],
+  "timezone": "Europe/Zurich",
+  "branchPrefix": "renovate-",
+  "packageRules": [
+    {
+      "groupName": "adobe fixes",
+      "updateTypes": ["patch", "pin", "digest", "minor"],
+      "automerge": true,
+      "packagePatterns": ["^@adobe/"],
+      "schedule": ["at any time"]
+    }
+  ]
+}

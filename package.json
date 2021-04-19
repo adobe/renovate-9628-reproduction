@@ -1,0 +1,9 @@
+{
+  "name": "@adobe/renovate-9628-reproduction",
+  "version": "4.0.5",
+  "description": "Reproducing an issue for renovatebot",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "@adobe/helix-universal": ">=1.2.1"
+  }
+}
